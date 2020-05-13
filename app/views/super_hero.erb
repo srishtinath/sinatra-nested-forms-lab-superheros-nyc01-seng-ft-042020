@@ -1,1 +1,26 @@
 
+<h1> Create a Team and Heroes!</h1>
+
+<form method="post" action="teams">
+<div class = "team">
+    <h4>Team Name: <input type="text" id="team_name" name="team[name]"> </h4>
+    <h4>Team Motto: <input type="text" id="team_motto" name="team[motto]"> </h4>
+</div>
+
+<div class = "heroes">
+    <h1>Hero Name: <input type="text" id="member1_name" name="team[members][][name]"></h1>
+    <h4>Hero Power: <input type="text" id="member1_power" name="team[members][][power]"> </h4>
+    <h4>Hero Bio: <input type="text" id="member1_bio" name="team[members][][bio]"> </h4>
+
+    <h1>Hero Name: <input type="text" id="member2_name" name="team[members][][name]"></h1>
+    <h4>Hero Power: <input type="text" id="member2_power" name="team[members][][power]"> </h4>
+    <h4>Hero Bio: <input type="text" id="member2_bio" name="team[members][][bio]"> </h4>
+
+    <h1>Hero Name: <input type="text" id="member3_name" name="team[members][][name]"></h1>
+    <h4>Hero Power: <input type="text" id="member3_power" name="team[members][][power]"> </h4>
+    <h4>Hero Bio: <input type="text" id="member3_bio" name="team[members][][bio]"> </h4>
+</div>
+
+<input type="submit" id="submit">
+
+</form>
